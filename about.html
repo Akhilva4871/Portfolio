@@ -6,41 +6,58 @@
     <title>About Me</title>
     <link rel="shortcut icon" type="image/x-icon" href="photos/AVA logo.png" />
     <link rel="stylesheet" href="about.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <div class="main">
-        <div class="navbar">
-            <ul>
-                <li class="first"><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skill</a></li>
-                <li><a href="contact.html">Contact</a></li>
+    <div class="about">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg ">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skill</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
             </ul>
-        </div>
-        <div class="row">
-            <div class="photo">
-                <img src="photos/Akhil-round.jpg" alt="">
+        </nav>
+
+        <div class="row align-items-center my-5">
+            <div class="col-md-4 text-center">
+                <img src="photos/Akhil-round.jpg" alt="Akhil" class="img-fluid rounded-circle">
             </div>
-            <div class="text">
+            <div class="col-md-8">
+                <div class="text">
                 <h2>About Me</h2>
                 <p>Hi, I'm Akhil, a web designer & developer from Thiruvalla. I'm passionate about creating visually stunning and 
                    user-friendly websites. Contact me to craft a stunning website that meets your business/personal needs.</p>
-                    <a href="contact.html">Contact me</a>
+                <a href="contact.html" class="btn ">Contact me</a>
             </div>
-            <div class="bio">
-                <p>As a Computer Science undergraduate at Saintgits College of Engineering, I'm passionate about innovative 
-                   technologies and web development. I'm proficient in HTML, CSS, and JavaScript, and my goal is to become 
-                   a skilled web designer, delivering high-quality solutions for clients.</p>
             </div>
         </div>
-        <div class="icons">
+        
+        <div class="bio mb-5">
+            <p>As a Computer Science undergraduate at Saintgits College of Engineering, I'm passionate about innovative 
+               technologies and web development. I'm proficient in HTML, CSS, and JavaScript, and my goal is to become 
+               a skilled web designer, delivering high-quality solutions for clients.</p>
+        </div>
 
-            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
-            <a href=""><ion-icon name="logo-github"></ion-icon></a>
+        <div class="icons text-center">
+            <a href="#" class="mx-2"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#" class="mx-2"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#" class="mx-2"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" class="mx-2"><ion-icon name="logo-github"></ion-icon></a>
         </div>
     </div>
-    <script  src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
