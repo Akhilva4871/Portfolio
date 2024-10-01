@@ -6,7 +6,7 @@
 
 .main {
     width: 100%;
-    background: url(photos/about-back2.jpg) no-repeat center center ;
+    background: #272525;
     background-size: cover;
     height: 100vh;
     position: relative;
